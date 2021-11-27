@@ -1,0 +1,99 @@
+/*      nav bar fonts --  font-family: 'Raleway', sans-serif;     */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/*---Headings font --font-family: 'Playfair Display', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/*---paragraphs font --font-family: 'Montserrat Alternates', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+body{
+  background-color: #4A504E;
+  margin: 0;
+}
+
+/*    start of header styles   */
+header .mr-auto{
+  
+}
+header div.container-fluid{
+  text-align: center;
+  display: flex;
+  justify-content: center !important;
+  line-height: 1rem;
+}
+.mr-auto .navbar-nav .nav-link{
+  color:#A4A5A4;
+  font-family: 'Raleway', sans-serif;
+}
+.navbar-nav .nav-item a:hover, .navbar-nav .nav-item a:focus{
+  color: #fff ;
+}
+li.nav-item a img{
+  width: 70%;
+}
+
+
+
+@media (min-width: 399.7px){
+  
+}
+
+@media (min-width: 767.7px){
+  .navbar-nav li.nav-item{
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1333.7px){
+  header div.container-fluid{
+    line-height: 6rem;
+  }
+  .nav-item a{
+    margin: 0rem 0.8rem;
+  }
+}
+
+@media (min-width: 1365.7.7px){
+  
+}
+
+@media (min-width: 1527.7px){
+  
+}
+
+@media (min-width: 1919.7px){
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 399.7px){
+  
+}
+
+@media (min-width: 767.7px){
+  
+}
+
+@media (min-width: 1333.7px){
+  
+}
+
+@media (min-width: 1365.7.7px){
+  
+}
+
+@media (min-width: 1527.7px){
+  
+}
+
+@media (min-width: 1919.7px){
+  
+}
+/*    end of header styles   */
