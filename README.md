@@ -10,8 +10,6 @@ Some of the requirements that the project is supposed to meet include:
 - The total cost of a pizza should constitute, the crust, topping(s) and size of the pizza.
 - On checkout, the application displays the orders’ summary together with the total amount charged. 
 
-The fictional project to be recreated:    
-![Delani fictional studio](https://github.com/jonnygovish/IP3/blob/master/%20Delani%20Studio.jpg?raw=true)
 #### Author
 **Victor Shaviya**
 Moringa School Prep Student.
@@ -28,7 +26,8 @@ Checkout the functionality within the page.
 1. Choose the pizza flavor of your liking.
 2. Specify the size of the pizza.
 3. Choose the crust and topping for the pizza on order.
-4. On checkout the application displays a summary of all the orders he/she has made and the total amount to pay for all his/her orders.
+4. On checkout the application displays a summary of all the orders he/she has made and the total amount to pay for all his/her orders.    
+
 **Email:** [victor.shaviya@student.moringaschool.com](#)
 #### Live link to site
 The project was deployed to GitHub pages for publication.     
