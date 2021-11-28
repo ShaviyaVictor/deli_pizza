@@ -27,7 +27,6 @@ li.nav-item a img{
   width: 70%;
 }
 /*    end of header styles   */
-
 /*    start of section1 styles   */
 #section1{
   margin: 0px;
@@ -48,8 +47,11 @@ p{
 #section1 h1{
   font-weight: 700;
 }
+section div#section1main{
+  padding: 14.8rem 0rem 14.8rem 0rem;
+}
 /*    end of section1 styles   */
-
+/*    start of media queries styles   */
 @media (min-width: 300.7px) and (max-width: 991.9px){
   li.nav-item a img{
     width: 40%;
@@ -59,6 +61,9 @@ p{
 @media (min-width: 767.7px){
   .navbar-nav li.nav-item{
     font-size: 1.2rem;
+  }
+  section div#section1main{
+    padding: 22rem 0rem 22rem 0rem;
   }
 }
 
@@ -72,6 +77,12 @@ p{
   .nav-item a{
     margin: 0rem 0.8rem;
   }
+  section div#section1main{
+    padding: 10rem 0rem 14.5rem 0rem;
+  }
+  #section1 h1{
+    font-size: 3.5rem;
+  }
 }
 
 @media (min-width: 1365.7.7px){
@@ -79,9 +90,13 @@ p{
 }
 
 @media (min-width: 1527.7px){
-  
+  section div#section1main{
+    padding: 14rem 0rem 17rem 0rem;
+  }
 }
 
 @media (min-width: 1919.7px){
-  
+  section div#section1main{
+    padding: 19.8rem 0rem 22rem 0rem;
+  }
 }
