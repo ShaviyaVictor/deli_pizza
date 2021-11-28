@@ -48,7 +48,7 @@ p{
   font-weight: 700;
 }
 section div#section1main{
-  padding: 14.8rem 0rem 14.8rem 0rem;
+  padding: 12.5rem 0rem 15rem 0rem;
 }
 /*    end of section1 styles   */
 /*    start of media queries styles   */
@@ -78,7 +78,7 @@ section div#section1main{
     margin: 0rem 0.8rem;
   }
   section div#section1main{
-    padding: 10rem 0rem 14.5rem 0rem;
+    padding: 8rem 0rem 12rem 0rem;
   }
   #section1 h1{
     font-size: 3.5rem;
@@ -91,12 +91,12 @@ section div#section1main{
 
 @media (min-width: 1527.7px){
   section div#section1main{
-    padding: 14rem 0rem 17rem 0rem;
+    padding: 12rem 0rem 14.6rem 0rem;
   }
 }
 
 @media (min-width: 1919.7px){
   section div#section1main{
-    padding: 19.8rem 0rem 22rem 0rem;
+    padding: 15.8rem 0rem 22rem 0rem;
   }
 }
