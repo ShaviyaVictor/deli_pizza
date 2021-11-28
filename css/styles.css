@@ -1,9 +1,9 @@
-/*      nav bar fonts --  font-family: 'Raleway', sans-serif;     */
+/*      link fonts --  font-family: 'Raleway', sans-serif;     */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 /*      h1 fonts --  font-family: 'Alegreya Sans', sans-serif;     */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap');
-/*---paragraphs font --font-family: 'Montserrat Alternates', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+/*      <p> fonts --  font-family: 'Martel', serif;     */
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
 body{
   background-color: #4A504E;
   margin: 0;
@@ -31,13 +31,22 @@ li.nav-item a img{
 /*    start of section1 styles   */
 #section1{
   margin: 0px;
-  background: rgba(0, 0, 0, 0.1);
-  background-image: url('../images/IMG-4784.jpg');
+  background: rgba(0, 0, 0, 0.6)url('../images/IMG-4784.jpg');
+  background-blend-mode: overlay;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   text-align: center;
   color: #fff;
+}
+h1{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+p{
+  font-family: 'Martel', serif;
+}
+#section1 h1{
+  font-weight: 700;
 }
 /*    end of section1 styles   */
 
@@ -76,14 +85,3 @@ li.nav-item a img{
 @media (min-width: 1919.7px){
   
 }
-
-
-
-
-
-
-
-
-
-
-
