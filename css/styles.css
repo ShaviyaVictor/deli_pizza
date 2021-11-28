@@ -1,7 +1,7 @@
 /*      nav bar fonts --  font-family: 'Raleway', sans-serif;     */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-/*---Headings font --font-family: 'Playfair Display', serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/*      h1 fonts --  font-family: 'Alegreya Sans', sans-serif;     */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap');
 /*---paragraphs font --font-family: 'Montserrat Alternates', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
 body{
@@ -10,9 +10,6 @@ body{
 }
 
 /*    start of header styles   */
-header .mr-auto{
-  
-}
 header div.container-fluid{
   text-align: center;
   display: flex;
@@ -29,8 +26,20 @@ header div.container-fluid{
 li.nav-item a img{
   width: 70%;
 }
+/*    end of header styles   */
 
-
+/*    start of section1 styles   */
+#section1{
+  margin: 0px;
+  background: rgba(0, 0, 0, 0.1);
+  background-image: url('../images/IMG-4784.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+/*    end of section1 styles   */
 
 @media (min-width: 300.7px) and (max-width: 991.9px){
   li.nav-item a img{
@@ -78,27 +87,3 @@ li.nav-item a img{
 
 
 
-@media (min-width: 399.7px){
-  
-}
-
-@media (min-width: 767.7px){
-  
-}
-
-@media (min-width: 1333.7px){
-  
-}
-
-@media (min-width: 1365.7.7px){
-  
-}
-
-@media (min-width: 1527.7px){
-  
-}
-
-@media (min-width: 1919.7px){
-  
-}
-/*    end of header styles   */
