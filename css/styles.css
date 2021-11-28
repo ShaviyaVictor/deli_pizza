@@ -50,6 +50,20 @@ p{
 section div#section1main{
   padding: 12.5rem 0rem 15rem 0rem;
 }
+.arrow-bounce{
+  animation: bounce 2.5s infinite;
+}
+@keyframes bounce{
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-1.5rem);
+  }
+  60% {
+    transform: translateY(-3rem);
+  }
+}
 /*    end of section1 styles   */
 /*    start of media queries styles   */
 @media (min-width: 300.7px) and (max-width: 991.9px){
