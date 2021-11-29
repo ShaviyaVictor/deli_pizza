@@ -135,7 +135,7 @@ div#alert{
   padding-left: 5%;
 }
 div.order_made h2{
-  color:orange;
+  color: darkgoldenrod;
   text-align: left;
 }
 div#your-orders{
@@ -172,10 +172,18 @@ div.delivery{
   padding-left: 10%;
   padding-right: 10%;
 }
-
-
 /*    end of section5 styles   */
+/*    start of section6 styles   */
 
+#section6{
+  background-color: #F5F5F5;
+  padding: 1.5rem 0rem;
+}
+#section6 .col-md-5{
+  text-align: right;
+}
+
+/*    end of section6 styles   */
 /*    start of media queries styles   */
 @media (min-width: 300.7px) and (max-width: 991.9px){
   li.nav-item a img{
