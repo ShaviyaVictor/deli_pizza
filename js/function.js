@@ -50,3 +50,17 @@ $(document).ready(function(){
       crust_price = 300;
     break;
   }
+
+  let topping_value = ptopping.length*100;
+
+  if((psize == "0") && (pcrust == "0")){
+    $("button.ordernow").show();
+    $("#alert").show();
+    $("div.order_made").hide();
+    alert("Oops! Check your input values..."); 
+  }
+  else{
+    $("button.ordernow").hide();
+    $("#alert").hide();
+    $("div.order_made").slideDown(800);
+  }
