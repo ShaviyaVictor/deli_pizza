@@ -8,6 +8,12 @@ body{
   background-color: #4A504E;
   margin: 0;
 }
+h1, h3, h5{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+p{
+  font-family: 'Martel', serif;
+}
 
 /*    start of header styles   */
 header div.container-fluid{
@@ -41,12 +47,6 @@ li.nav-item a img{
   text-align: center;
   color: #fff;
 }
-h1{
-  font-family: 'Alegreya Sans', sans-serif;
-}
-p{
-  font-family: 'Martel', serif;
-}
 #section1 h1{
   font-weight: 700;
 }
@@ -69,7 +69,7 @@ section div#section1main{
 }
 /*    end of section1 styles   */
 /*    start of section2 styles   */
-#section2{
+#section2, #section3{
   background-color: #fff;
   text-align: center;
 }
