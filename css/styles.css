@@ -184,6 +184,37 @@ div.delivery{
 }
 
 /*    end of section6 styles   */
+/*    start of footer styles   */
+footer{
+  background-color: #E25C2C;
+  text-align: center;
+  padding: 3rem;
+}
+.social li{
+  display: inline-block;
+  margin: 1rem;
+}
+.social li a i{
+  color: #198754;
+  border-color: #198754;
+  border: solid 0.15rem #198754;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 2.8rem;
+  font-size: 1.5rem;
+  transition: .3s;
+}
+.social li a i:hover{
+  color: #fff;
+  background-color: #198754;
+}
+footer .row .copyright{
+  padding-top: 3rem;
+}
+
+/*    end of footer styles   */
 /*    start of media queries styles   */
 @media (min-width: 300.7px) and (max-width: 991.9px){
   li.nav-item a img{
