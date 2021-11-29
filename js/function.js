@@ -147,3 +147,31 @@ $(document).ready(function(){
     let deliveryamount = checkoutTotal + 200;
     $("#totalbill").append("Bill (delivery included): Ksh. "+deliceryamount);
   });
+
+      // when one clicks place order button
+      $("button#final-order").click(function(event){
+        event.preventDefault();
+  
+        $("#pizzatotal").hide();
+        $(".delivery").hide();
+        $("button#final-order").hide();
+        let deliveryamount = checkoutTotal + 200;
+        let person = $("input#name").val();
+        let phone = $("input#phone").val();
+        let location = $("input#location").val();
+  
+        if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
+    
+          $("#finallmessage").append(`Hi ${person}, we have recieved your order. The order is being dispatched for delivery to ${location}. Your bill has amounted to Ksh.${deliveryamount}`);
+          $("#totalbill").hide();
+          $("#finallmessage").slideDown(1000);
+        }
+        else {
+          alert("Please check your delivery inputs!");
+          $(".delivery").show();
+          $("button#final-order").show();
+        }
+      });
+     event.preventDefault();
+    });
+  });
