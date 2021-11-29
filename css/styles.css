@@ -8,7 +8,7 @@ body{
   background-color: #4A504E;
   margin: 0;
 }
-h1, h3, h5{
+h1, h2, h3, h5{
   font-family: 'Alegreya Sans', sans-serif;
 }
 p{
@@ -114,7 +114,11 @@ section#section4 img{
   margin: 3rem 0rem;
 }
 /*    end of section4 styles   */
+/*    start of section5 styles   */
 
+
+
+/*    end of section5 styles   */
 
 /*    start of media queries styles   */
 @media (min-width: 300.7px) and (max-width: 991.9px){
@@ -155,6 +159,9 @@ section#section4 img{
   section#section4 img{
     height: 32rem;
     margin: 4rem 0rem;
+  }
+  .section5 #alert{
+    margin: 4rem;
   }
 }
 
