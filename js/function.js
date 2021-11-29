@@ -115,3 +115,35 @@ $(document).ready(function(){
         crust_price = 300;
       break;
     }
+
+    let topping_value = ptopping.length*100;
+    total = price + crust_price + topping_value;
+    checkoutTotal = checkoutTotal + total;
+
+      // constractor function
+    var newOrder = new Orderpizza(pname, psize, pcrust,ptopping,total);
+
+    $("#ordersmade").append('<tr><td id="pizzaname">'+newOrder.name +'</td><td id="pizzasize">' + newOrder.size + '</td><td id="pizzacrust">'+newOrder.crust + '</td><td id="pizzatopping">'+newOrder.topping+'</td><td id="totals">'+newOrder.total+'</td></tr>');  
+  });
+
+  // Checkout button
+  $("button#checkout").click(function(){ 
+    $("button#checkout").hide();
+    $("button.addOrder").hide();
+    $("button.deliver").slideDown(1000);
+    $("#addedprice").slideDown(1000);
+    $("#pizzatotal").append("Your bill is sh. "+checkoutTotal);
+  });
+
+  // home delivery button
+  $("button.deliver").click(function(){
+    $(".order_summary").hide();
+    $(".order_made h2").hide();
+    $(".delivery").slideDown(1000);
+    $("#addedprice").hide();
+    $("button.deliver").hide();
+    $("#pizzatotal").hide();
+
+    let deliveryamount = checkoutTotal + 200;
+    $("#totalbill").append("Bill (delivery included): Ksh. "+deliceryamount);
+  });
