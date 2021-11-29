@@ -90,7 +90,17 @@ section div#section1main{
 div.text-holder p a{
   color: blue;
 }
-/*    end of section1 styles   */
+/*    end of section2 styles   */
+/*    start of section3 styles   */
+
+#section3 img{
+  margin: 3rem;
+}
+#section3 .col-md-4{
+  margin-bottom: 2.5rem;
+}
+
+/*    end of section3 styles   */
 
 
 
@@ -101,7 +111,11 @@ div.text-holder p a{
     width: 40%;
   }
 }
-
+@media (min-width: 300.7px) and (max-width: 767.7px){
+  #section3 .col-md-4{
+    margin-left: 2rem;
+  }
+}
 @media (min-width: 767.7px){
   .navbar-nav li.nav-item{
     font-size: 1.2rem;
