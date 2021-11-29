@@ -292,7 +292,60 @@
             </form>
           </div>
           <!--    right side column with hidden information and output display    -->
-              
+          <div class="col-sm-8">
+  
+            <div id="alert">
+              <p>
+                Order your pizza here and we will deliver it to you at your door step!<br>
+                Custom pizzas come with sauce, cheeses, and basil by default.
+                <br>Add up to around 4 additional toppings. <br>
+                Sauce and cheese modifications can only be done on the whole pizza.
+              </p>
+            </div>
+  
+            <div class="order_made">
+              <h2>Your Order is:</h2>
+              <div id="your-orders">
+                <table class="table table-sm  order_summary">
+                  <thead>
+                    <tr>
+                      <th scope="col">Name</th>
+                      <th scope="col">Size</th>
+                      <th scope="col">Crust</th>
+                      <th scope="col">Topping</th>
+                      <th scope="col">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody id="ordersmade">
+                    <tr>
+                      <td id="flavvor"></td>
+                      <td id="sizze"></td>
+                      <td id="crusst"></td>
+                      <td id="topping"></td>
+                      <td id="total"></td>
+                    </tr>                  
+                  </tbody>
+                </table>
+                <p id="pizzatotal"></p>
+                <p id="totalbill"></p> 
+                <p id="addedprice">Delivery Fee: Ksh. 200</p>
+                <p id="finallmessage"></p>
+              </div>
+              <button class="btn btn-orange addOrder">Add Order</button>
+              <button class="btn btn-orange" id="checkout">Checkout</button>
+              <button class="btn btn-orange deliver">Delivery</button>
+            </div>
+  
+            <div class="delivery">
+              <form action="">
+                <div class="form-group">
+                  <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                  <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                  <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                  <button class="btn btn-orange" id="final-order">Place Order</button>
+                </div>
+              </form>
+            </div>    
           </div>
         </div>
       </div>
