@@ -16,6 +16,9 @@ header div.container-fluid{
   justify-content: center !important;
   line-height: 1rem;
 }
+a, button{
+  font-family: 'Raleway', sans-serif;
+}
 .mr-auto .navbar-nav .nav-link{
   color:#A4A5A4;
   font-family: 'Raleway', sans-serif;
@@ -31,7 +34,7 @@ li.nav-item a img{
 #section1{
   margin: 0px;
   background: rgba(0, 0, 0, 0.6)url('../images/IMG-4784.jpg');
-  background-blend-mode: overlay;
+  background-blend-mode: soft-light;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -65,6 +68,33 @@ section div#section1main{
   }
 }
 /*    end of section1 styles   */
+/*    start of section2 styles   */
+#section2{
+  background-color: #fff;
+  text-align: center;
+}
+#section2 button{
+  border: solid 0.2rem;
+  margin: 3rem 1rem;
+  padding: 1rem;
+  letter-spacing: 0.2rem;
+}
+#section2 button:hover{
+  background-color: black;
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+#section2 div.text-holder{
+  padding-bottom: 3rem;
+}
+div.text-holder p a{
+  color: blue;
+}
+/*    end of section1 styles   */
+
+
+
+
 /*    start of media queries styles   */
 @media (min-width: 300.7px) and (max-width: 991.9px){
   li.nav-item a img{
