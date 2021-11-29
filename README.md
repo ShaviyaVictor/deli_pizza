@@ -1,4 +1,4 @@
-# DELANI STUDIO
+# DELI-PIZZA
 ![Deli-Pizza, a fictional pizza place](https://github.com/ShaviyaVictor/deli_pizza/blob/main/images/screenshot.png?raw=true)
 ## Project Description
 This is a web application that aims to widen the customer base of my fictitious deli pizza place where my customers order different sizes of pizzas with one or more toppings.    
@@ -14,7 +14,7 @@ Some of the requirements that the project is supposed to meet include:
 **Victor Shaviya**
 Moringa School Prep Student.
 ## Project Setup Instructions
-The project is set up in such a way that it should demonstrate mastery of bootstrap and jQuery frameworks and most importantly JavaScript.
+The project is set up in such a way that it should demonstrate mastery of bootstrap and jQuery frameworks.
 #### How the project works
 Checkout the functionality within the page.
 ## Technologies Used
