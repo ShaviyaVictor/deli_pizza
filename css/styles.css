@@ -101,8 +101,19 @@ div.text-holder p a{
 }
 
 /*    end of section3 styles   */
+/*    start of section4 styles   */
 
-
+#section4{
+  background-color: #F5F5F5;
+}
+section#section4 .row{
+  text-align: center;
+}
+section#section4 img{
+  height: 25rem;
+  margin: 3rem 0rem;
+}
+/*    end of section4 styles   */
 
 
 /*    start of media queries styles   */
@@ -141,6 +152,10 @@ div.text-holder p a{
   #section1 h1{
     font-size: 3.5rem;
   }
+  section#section4 img{
+    height: 32rem;
+    margin: 4rem 0rem;
+  }
 }
 
 @media (min-width: 1365.7.7px){
@@ -151,10 +166,18 @@ div.text-holder p a{
   section div#section1main{
     padding: 12rem 0rem 14.6rem 0rem;
   }
+  section#section4 img{
+    height: 25rem;
+    margin: 3rem 0rem;
+  }
 }
 
 @media (min-width: 1919.7px){
   section div#section1main{
     padding: 17.8rem 0rem 22rem 0rem;
+  }
+  section#section4 img{
+    height: 38rem;
+    margin: 3rem 0rem;
   }
 }
