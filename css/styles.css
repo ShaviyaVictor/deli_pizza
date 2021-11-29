@@ -116,6 +116,62 @@ section#section4 img{
 /*    end of section4 styles   */
 /*    start of section5 styles   */
 
+#order-now h2{
+  text-align: center;
+}
+.order{
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.order-overlay{
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 20px;
+}
+div#alert{
+  padding-top: 5%;
+  padding-right: 8%;
+  padding-left: 5%;
+}
+div.order_made h2{
+  color:orange;
+  text-align: left;
+}
+div#your-orders{
+  color: white;
+  font-size: 30px;
+}
+td, th{
+  font-size: 20px;
+  color: white;
+}
+button.deliver{
+  display: none;
+}
+form .custom-control input{
+  margin: 1rem;
+}
+div.order_made{
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+p#addedprice{
+  display: none;
+}
+p#finallmessage{
+  display: none;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 28px;
+}
+div.delivery{
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
 
 /*    end of section5 styles   */
