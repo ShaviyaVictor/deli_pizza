@@ -225,6 +225,18 @@ footer .row .copyright{
   #section3 .col-md-4{
     margin-left: 2rem;
   }
+  .social li{
+    margin: 0.5rem;
+  }
+  .social li a i{
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.4rem;
+    font-size: 0.75rem;
+  }
+  footer{
+    padding: 1.2rem;
+  }
 }
 @media (min-width: 767.7px){
   .navbar-nav li.nav-item{
